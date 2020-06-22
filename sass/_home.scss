@@ -1,0 +1,25 @@
+main {
+	height: 100vh;
+
+	.home {
+		height: 100%;
+		width: 100%;
+		background-image: url('/assets/background.jpg');
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+
+		&__header {
+			font-weight: 600;
+			padding: 0 25px;
+		}
+
+		&__subheader {
+			font-weight: 300;
+			font-size: 18px;
+		}
+	}
+}

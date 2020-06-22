@@ -10,7 +10,7 @@
 // Reset
 @import 'components/normalize';
 
-// components
+// Components
 @import 'components/global';
 @import 'components/badges';
 @import 'components/icons-material-design';
@@ -39,3 +39,7 @@
 @import 'components/pulse';
 @import 'components/datepicker';
 @import 'components/timepicker';
+
+// Pages
+@import './home';
+@import './about';

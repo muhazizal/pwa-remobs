@@ -9015,3 +9015,37 @@ input[type=range]::-ms-thumb {
     margin-top: 1.2rem;
   }
 }
+
+main {
+  height: 100vh;
+}
+
+main .home {
+  height: 100%;
+  width: 100%;
+  background-image: url("/assets/background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .home__header {
+  font-weight: 600;
+  padding: 0 25px;
+}
+
+main .home__subheader {
+  font-weight: 300;
+  font-size: 18px;
+}
+/*# sourceMappingURL=materialize.css.map */
