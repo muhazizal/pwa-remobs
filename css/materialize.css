@@ -2587,7 +2587,7 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-family: -apple-system, "Poppins", BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
 
 ul:not(.browser-default) {
@@ -4478,7 +4478,7 @@ a {
 
 html {
   line-height: 1.5;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-family: -apple-system, "Poppins", BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   font-weight: normal;
   color: rgba(0, 0, 0, 0.87);
 }
@@ -5172,10 +5172,10 @@ small {
 .btn-small[disabled],
 .btn-flat[disabled] {
   pointer-events: none;
-  background-color: #DFDFDF !important;
+  background-color: #dfdfdf !important;
   -webkit-box-shadow: none;
           box-shadow: none;
-  color: #9F9F9F !important;
+  color: #9f9f9f !important;
   cursor: default;
 }
 
@@ -5198,8 +5198,8 @@ small {
 .btn-large[disabled]:hover,
 .btn-small[disabled]:hover,
 .btn-flat[disabled]:hover {
-  background-color: #DFDFDF !important;
-  color: #9F9F9F !important;
+  background-color: #dfdfdf !important;
+  color: #9f9f9f !important;
 }
 
 .btn, .btn-large, .btn-small,
@@ -7074,7 +7074,7 @@ textarea.materialize-textarea {
 }
 
 .switch label .lever:after {
-  background-color: #F1F1F1;
+  background-color: #f1f1f1;
   -webkit-box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
           box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
 }
@@ -9067,5 +9067,21 @@ section .home__subheader {
 
 .advantages__title {
   margin: 15px 0;
+}
+
+.price {
+  padding: 15px 0;
+}
+
+.price__header {
+  margin: 30px 0 30px 0;
+}
+
+.price .card-image {
+  min-height: 250px;
+}
+
+.rent {
+  padding: 15px 0;
 }
 /*# sourceMappingURL=materialize.css.map */
