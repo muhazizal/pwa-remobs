@@ -9016,11 +9016,11 @@ input[type=range]::-ms-thumb {
   }
 }
 
-main {
+section {
   height: 100vh;
 }
 
-main .home {
+section .home {
   height: 100%;
   width: 100%;
   background-image: url("/assets/background.jpg");
@@ -9039,13 +9039,33 @@ main .home {
           justify-content: center;
 }
 
-main .home__header {
+section .home__header {
   font-weight: 600;
   padding: 0 25px;
 }
 
-main .home__subheader {
+section .home__subheader {
   font-weight: 300;
   font-size: 18px;
+}
+
+.about {
+  padding: 15px 0;
+}
+
+.about__header {
+  margin: 30px 0 15px 0;
+}
+
+.about__advantages h3 {
+  margin: 50px 0 0 0;
+}
+
+.advantages {
+  margin: 30px 0;
+}
+
+.advantages__title {
+  margin: 15px 0;
 }
 /*# sourceMappingURL=materialize.css.map */
