@@ -1,4 +1,4 @@
-const CACHE_NAME = 'remobs-remove';
+const CACHE_NAME = 'remobs';
 var urlsToCache = [
 	'/',
 	'/nav.html',
@@ -29,6 +29,8 @@ var urlsToCache = [
 	'/assets/icons/favicon-256x256.png',
 	'/assets/icons/favicon-384x384.png',
 	'/assets/icons/favicon-512x512.png',
+	'https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap',
+	'https://fonts.googleapis.com/icon?family=Material+Icons',
 ];
 
 // Add asset to cache
