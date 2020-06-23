@@ -9049,39 +9049,74 @@ section .home__subheader {
   font-size: 18px;
 }
 
-.about {
-  padding: 15px 0;
+.about__description {
+  padding: 30px 0;
 }
 
-.about__header {
-  margin: 30px 0 15px 0;
+.about__description__header {
+  margin: 30px 0;
+  font-weight: 500;
 }
 
-.about__advantages h3 {
-  margin: 50px 0 0 0;
+.about__description__content {
+  color: #646464;
 }
 
-.advantages {
+.about__advantages {
+  padding: 30px 0;
+  margin: 0;
+  background-color: black;
+}
+
+.about__advantages__header {
+  margin: 30px 0;
+  font-weight: 500;
+}
+
+.about__advantages .advantages {
   margin: 30px 0;
 }
 
-.advantages__title {
+.about__advantages .advantages__title {
   margin: 15px 0;
 }
 
+.about__advantages .advantages__content {
+  color: #afafaf;
+}
+
 .price {
-  padding: 15px 0;
+  padding: 30px 0;
 }
 
 .price__header {
-  margin: 30px 0 30px 0;
+  margin: 30px 0;
+  font-weight: 500;
 }
 
-.price .card-image {
+.card {
+  margin: 30px 0;
+}
+
+.card-image {
   min-height: 250px;
 }
 
+.card-price {
+  font-weight: 600;
+  color: green;
+}
+
+.card-time {
+  color: #646464;
+}
+
 .rent {
-  padding: 15px 0;
+  padding: 30px 0;
+}
+
+.rent__header {
+  margin: 30px 0;
+  font-weight: 500;
 }
 /*# sourceMappingURL=materialize.css.map */
