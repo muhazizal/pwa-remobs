@@ -7,6 +7,14 @@
 		<meta name="keywords" content="jasa transportasi, paket wisata, sewa mobil, rental mobil">
 		<title>Remobs</title>
 
+		<!-- Favicons Web App Manifest -->
+		<link rel="shortcut icon" href="/assets/icons/favicon.ico" type="image/x-icon">
+		<link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
+		<link rel="manifest" href="/site.webmanifest">
+		<link rel="mask-icon" href="/assets/icons/safari-pinned-tab.svg" color="#000000">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="theme-color" content="#000000">
+
 		<!-- Style CSS -->
 		<link rel="stylesheet" href="css/materialize.css" />
 
@@ -33,5 +41,22 @@
 		<!-- Script JS -->
     <script src="js/bin/materialize.min.js"></script>
 		<script src="js/bin/nav.js"></script>
+		<script>
+			// REGISTER SERVICE WORKER
+			if ("serviceWorker" in navigator) {
+				window.addEventListener("load", function() {
+					navigator.serviceWorker
+						.register("/service-worker.js")
+						.then(function() {
+							console.log("Pendaftaran ServiceWorker berhasil");
+						})
+						.catch(function() {
+							console.log("Pendaftaran ServiceWorker gagal");
+						});
+				});
+			} else {
+				console.log("ServiceWorker belum didukung browser ini.");
+			}
+		</script>
 	</body>
 </html>
