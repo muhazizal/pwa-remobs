@@ -1,8 +1,10 @@
-const CACHE_NAME = 'remobs';
+const CACHE_NAME = 'remobs-test';
 var urlsToCache = [
 	'/',
 	'/nav.html',
 	'/index.html',
+	'/browserconfig.xml',
+	'/site.webmanifest',
 	'/pages/home.html',
 	'/pages/about.html',
 	'/pages/price.html',
